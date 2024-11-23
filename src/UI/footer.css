@@ -1,0 +1,23 @@
+.cont_footer_block{
+    margin-top: 100px;
+    width: 100vw;
+    height: 250px;
+    background-color: #9E9E9E;
+    display: flex;
+    justify-content: center;
+}
+.footer_block{
+    font-size: 24px;
+    display: flex;
+    width: 1620px;
+    justify-content: center;
+    flex-direction: column;
+}
+.content_footer{
+    display: flex;
+    margin-top: 25px;
+    color: #F8F8F8;
+}
+.cont_content{
+    margin-right: 100px;
+}

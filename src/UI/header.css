@@ -1,0 +1,143 @@
+a:active, a:hover, a {
+    text-decoration: none;
+    color: #F8F8F8;
+}
+.header_cont{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1620px;
+    height: 80px;
+    color: #F8F8F8;
+
+}
+.underline{
+    height: 5px;
+    width: 100vw;
+    background-color: #23C107;
+}
+.logo_name{
+    font-size: 32px;
+
+}
+.nav_menu{
+    font-size: 24px;
+    display: flex;
+}
+.nav{
+    cursor: pointer;
+    user-select: none;
+    margin-left: 75px
+}
+
+
+
+
+
+
+#register:hover .register_win_cont{ 
+
+    display: block;
+}
+.register_win_cont{
+    margin-top: 20px;
+    margin-left: -250px;
+    position: absolute;
+    display: none;
+    width: 390px;
+    height: 900px;
+
+}
+.register_win{
+    color: black;
+    font-size: 22px;
+    margin-top: 100px;
+    background-color: #F8F8F8;
+    width: 390px;
+    min-height: 800px;
+    padding-bottom: 25px;
+    border: 1px solid #23C107;
+    border-radius: 10px;
+}
+.name_block{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    font-size: 32px;
+
+}
+
+
+.cont_form{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.name_area{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input_form{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+    width: 310px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+#login:hover .login_win_cont{ 
+
+    display: block;
+}
+.login_win_cont{
+    margin-top: 20px;
+    margin-left: -250px;
+    position: absolute;
+    display: none;
+    width: 390px;
+    height: 555px;
+
+}
+.login_win{
+    color: black;
+    font-size: 22px;
+    margin-top: 100px;
+    background-color: #F8F8F8;
+    width: 390px;
+    min-height: 455px;
+    padding-bottom: 25px;
+    border: 1px solid #23C107;
+    border-radius: 10px;
+}
+.name_block{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    font-size: 32px;
+
+}
+
+
+.exit_btn{
+    text-decoration: underline;
+    cursor: pointer;
+    user-select: none;
+}

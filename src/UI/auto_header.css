@@ -1,0 +1,17 @@
+.cont_header_mini{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.text_header_mini{
+    font-size: 28px;
+    color: #23C107;
+    margin: 20px;
+    margin-left: 25px;
+}
+.underline_mini{
+    background-color: #23C107;
+    width: 100%;
+    height: 5px;
+}

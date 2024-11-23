@@ -1,0 +1,20 @@
+.c{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.cont_data_string{
+    width: 1620px;
+    background-color: #DBDBDB;
+}
+.data_string{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #000000;
+    font-size: 20px;
+}

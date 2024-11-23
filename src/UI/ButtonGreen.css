@@ -1,0 +1,22 @@
+.greeeen{
+    border: 2px solid #23C107 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 300ms;
+    background-color: rgba(0, 0, 0, 0);
+}
+.greeeen:hover{
+
+    cursor: pointer;
+
+    background-color: #23C107;
+    color: #F8F8F8;
+}
+.greeeen:active{
+
+    background-color: #157a03;
+    color: #F8F8F8;
+}

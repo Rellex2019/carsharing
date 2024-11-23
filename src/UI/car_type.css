@@ -1,0 +1,33 @@
+.cont_type{
+    width: 316px;
+    margin: 5px;
+    height: 230px;
+    background-color: black;
+    border-radius: 25px;
+    color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.cont_type:hover{
+    border: 5px solid #F8F8F8;
+    box-sizing: border-box; 
+}
+.svg_car{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 30px;
+}
+.name_car{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 40px;
+}
+.svg_car, .name_car{
+    pointer-events: none;
+}

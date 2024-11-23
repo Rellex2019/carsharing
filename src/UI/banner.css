@@ -1,0 +1,33 @@
+.banner_cont{
+    display: flex;
+    justify-content: center;
+}
+.cont_img{
+    overflow: hidden;
+    height: 635px;
+}
+.img_banner{
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+.slogan_cont{
+    margin-left: 1136px;
+    margin-top: 165px;
+    font-size: 40px;
+    color:#F8F8F8 ;
+    position: absolute;
+}
+.slogan1{
+    color: #23C107;
+}
+.slogan2{
+    margin-left: 90px;
+}
+.slogan3{
+    margin-left: 220px;
+}
+.btn_green{
+    position: absolute;
+    margin-top: 510px;
+}

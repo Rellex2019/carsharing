@@ -1,0 +1,84 @@
+.Main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter_text{
+    color:#23C107 ;
+    font-size: 36px;
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+
+.filter_cars{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_cars_filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 250px;
+    background-color: #5DAA60;
+}
+
+.cont_next_filter{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.center_filter{
+    display: flex;
+    width: 1620px;
+}
+
+.text_transmission{
+    font-size: 28px;
+}
+.radio_text{
+    font-size: 24px;
+}
+
+.brend{
+    margin-left: 80px;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+}
+#brend_car{
+    margin-top: 10px;
+    border: 2px solid black;
+    padding-left: 20px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.reset_btn{
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 350px;
+    border: 2px solid #23C107;
+    border-radius: 10px;
+    font-size: 28px;
+}
+.reset_btn:hover{
+    color: #F8F8F8;
+    background-color: #23C107;
+}
+
+
+
+
+
+
